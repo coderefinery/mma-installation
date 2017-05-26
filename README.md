@@ -21,7 +21,7 @@
 We recommend to install these either through
 [Anaconda](https://www.continuum.io/downloads),
 [Miniconda](https://conda.io/miniconda.html), or
-[Virtual Environments](http://python-guide.readthedocs.io/en/latest/dev/virtualenvs/).
+[Virtual Environments](http://python-guide.readthedocs.io/en/latest/dev/virtualenvs/):
 
 - [pytest](https://docs.pytest.org)
 - [cffi](https://cffi.readthedocs.io)
@@ -30,3 +30,15 @@ We recommend to install these either through
 - [cython](http://cython.readthedocs.io)
 - [boost](http://www.boost.org/doc/libs/1_63_0/libs/python/doc/html/index.html)
 - [pybind11](https://pybind11.readthedocs.io)
+
+
+Example installation
+(using [Virtual Environments](http://python-guide.readthedocs.io/en/latest/dev/virtualenvs/)):
+
+```shell
+$ mkdir mma-workshop
+$ cd mma-workshop
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install pytest cffi scipy swig cython boost pybind11
+```
