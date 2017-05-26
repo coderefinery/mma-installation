@@ -10,10 +10,11 @@
 - Fortran compiler
 
 
-## Required configure and build tools
+## Required tools
 
 - [CMake](https://cmake.org/download/)
 - [Make](https://www.gnu.org/software/make/)
+- [swig](http://www.swig.org)
 
 
 ## Required Python packages
@@ -26,7 +27,6 @@ We recommend to install these either through
 - [pytest](https://docs.pytest.org)
 - [cffi](https://cffi.readthedocs.io)
 - [scipy](https://www.scipy.org)
-- [swig](http://www.swig.org)
 - [cython](http://cython.readthedocs.io)
 - [boost](http://www.boost.org/doc/libs/1_63_0/libs/python/doc/html/index.html)
 - [pybind11](https://pybind11.readthedocs.io)
@@ -40,5 +40,5 @@ $ mkdir mma-workshop
 $ cd mma-workshop
 $ virtualenv venv
 $ source venv/bin/activate
-$ pip install pytest cffi scipy swig cython boost pybind11
+$ pip install pytest cffi scipy cython boost pybind11
 ```
