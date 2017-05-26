@@ -35,7 +35,7 @@ We recommend to install these either through
 Example installation
 (using [Virtual Environments](http://python-guide.readthedocs.io/en/latest/dev/virtualenvs/)):
 
-```shell
+```
 $ mkdir mma-workshop
 $ cd mma-workshop
 $ virtualenv venv
